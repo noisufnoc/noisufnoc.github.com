@@ -3,7 +3,7 @@
 
 AUTHOR = u"Mike"
 ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
-ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}'
+ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 SITENAME = u"noisufnoc.com"
 SITEURL = ''
 DEFAULT_CATEGORY = 'Blog'
