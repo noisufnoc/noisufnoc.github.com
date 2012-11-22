@@ -3,7 +3,7 @@
 
 AUTHOR = u"Mike"
 ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
-ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}'
+ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 SITENAME = u"noisufnoc.com"
 SITEURL = ''
 DEFAULT_CATEGORY = 'Blog'
@@ -12,7 +12,7 @@ DELETE_OUTPUT_DIRECTORY = True
 GITHUB_URL = 'https://github.com/noisufnoc/noisufnoc.github.com'
 TWITTER_USERNAME = 'noisufnoc'
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'America/Los_Angeles'
 
 
 # Blogroll
@@ -22,8 +22,9 @@ LINKS =  (('Pelican', 'http://docs.notmyidea.org/alexis/pelican/'),
           ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (
+	 ('twitter', 'http://twitter.com/noisufnoc'),
+)
 
 DEFAULT_PAGINATION = 10
 
