@@ -24,6 +24,8 @@ LINKS =  (('Pelican', 'http://docs.notmyidea.org/alexis/pelican/'),
 # Social widget
 SOCIAL = (
 	 ('twitter', 'http://twitter.com/noisufnoc'),
+	 ('facebook', 'http://facebook.com/noisufnoc'),
+	 ('instagram', 'http://instagram.com/therealnoisufnoc'),
 )
 
 DEFAULT_PAGINATION = 10
