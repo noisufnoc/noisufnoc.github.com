@@ -9,6 +9,7 @@ SITEURL = ''
 DEFAULT_CATEGORY = 'Blog'
 DEFAULT_LANG = 'en'
 DELETE_OUTPUT_DIRECTORY = True
+THEME = 'pelican-chunk'
 GITHUB_URL = 'https://github.com/noisufnoc/noisufnoc.github.com'
 TWITTER_USERNAME = 'noisufnoc'
 
