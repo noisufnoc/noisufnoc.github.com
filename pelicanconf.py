@@ -33,16 +33,3 @@ SOCIAL = (
 )
 
 DEFAULT_PAGINATION = 10
-
-
-#SOCIAL = (
-#    ('aclark4life', 'http://twitter.com/aclark4life'),
-#    ('ACLARKNET', 'http://twitter.com/ACLARKNET'),
-#    ('GitHub', 'http://github.com/aclark4life'),
-#    ('Gittip', 'https://www.gittip.com/aclark4life'),
-#    ('PythonPackages', 'https://pythonpackages.com/user/aclark4life'),
-#    ('atom feed (Django)', 'http://blog.aclark.net/feeds/Django.atom.xml'),
-#    ('atom feed (Mozilla)', 'http://blog.aclark.net/feeds/Mozilla.atom.xml'),
-#    ('atom feed (Plone)', 'http://blog.aclark.net/feeds/Plone.atom.xml'),
-#    ('atom feed (Python)', 'http://blog.aclark.net/feeds/Python.atom.xml'),
-#)
