@@ -17,16 +17,19 @@ TIMEZONE = 'America/Los_Angeles'
 
 
 # Blogroll
-LINKS =  (('Pelican', 'http://docs.notmyidea.org/alexis/pelican/'),
-          ('Python.org', 'http://python.org'),
-          ('Jinja2', 'http://jinja.pocoo.org'),
-          ('You can modify those links in your config file', '#'),)
+LINKS = (
+    ('github', 'http://github.com/noisufnoc'),
+    ('google+', 'http://plus.google.com/108169237874141810797'),
+    ('twitter', 'http://twitter.com/noisufnoc'),
+    ('instagram', 'http://instagram.com/therealnoisufnoc'),
+    ('facebook', 'http://facebook.com/noisufnoc'),
+)
 
 # Social widget
 SOCIAL = (
-	 ('twitter', 'http://twitter.com/noisufnoc'),
-	 ('facebook', 'http://facebook.com/noisufnoc'),
-	 ('instagram', 'http://instagram.com/therealnoisufnoc'),
+    ('twitter', 'http://twitter.com/noisufnoc'),
+    ('facebook', 'http://facebook.com/noisufnoc'),
+    ('instagram', 'http://instagram.com/therealnoisufnoc'),
 )
 
 DEFAULT_PAGINATION = 10
