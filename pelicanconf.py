@@ -18,12 +18,12 @@ TIMEZONE = 'America/Los_Angeles'
 
 # Blogroll
 LINKS = (
-    ('github', 'http://github.com/noisufnoc'),
-    ('bitbucket', 'http://bitbucket.org/noisufnoc'),
-    ('google+', 'http://plus.google.com/108169237874141810797'),
-    ('twitter', 'http://twitter.com/noisufnoc'),
-    ('instagram', 'http://instagram.com/therealnoisufnoc'),
     ('facebook', 'http://facebook.com/noisufnoc'),
+    ('instagram', 'http://instagram.com/therealnoisufnoc'),
+    ('twitter', 'http://twitter.com/noisufnoc'),
+    ('google+', 'http://plus.google.com/108169237874141810797'),
+    ('bitbucket', 'http://bitbucket.org/noisufnoc'),
+    ('github', 'http://github.com/noisufnoc'),
 )
 
 # Social widget
