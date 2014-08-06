@@ -1,83 +1,97 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-        <meta charset="utf-8" />
-        <title>Testing Testing</title>
-        <link rel="stylesheet" href="http://noisufnoc.github.com/theme/css/main.css" />
-        <link href="http://noisufnoc.github.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="noisufnoc.com Atom Feed" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="noisufnoc.com, ">
 
-        <!--[if IE]>
-            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+        <link rel="alternate"  href="http://noisufnoc.github.com/feeds/all.atom.xml" type="application/atom+xml" title="noisufnoc.com Full Atom Feed"/>
+
+        <title>Testing Testing // noisufnoc.com // </title>
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.3.0/pure-min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://noisufnoc.github.com/theme/css/pure.css">
+    <link rel="stylesheet" href="http://noisufnoc.github.com/theme/css/pygments.css">
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/fitvids/1.0.1/jquery.fitvids.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".content").fitVids();
+        });
+    </script>
 </head>
 
-<body id="index" class="home">
-<a href="https://github.com/noisufnoc/noisufnoc.github.com">
-<img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" />
-</a>
-        <header id="banner" class="body">
-                <h1><a href="http://noisufnoc.github.com/">noisufnoc.com </a></h1>
-                <nav><ul>
-                    <li class="active"><a href="http://noisufnoc.github.com/category/banana.html">Banana</a></li>
-                </ul></nav>
-        </header><!-- /#banner -->
-<section id="content" class="body">
-  <article>
-    <header>
-      <h1 class="entry-title">
-        <a href="http://noisufnoc.github.com/2013/05/07/testing-testing/" rel="bookmark"
-           title="Permalink to Testing Testing">Testing Testing</a></h1>
-<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="noisufnoc">Tweet</a><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
-    </header>
+<body>
+    <div class="pure-g-r" id="layout">
+        <div class="sidebar pure-u">
+            <div class="cover-img" style="background-image: url('')">
+                <div class="cover-body">
+                    <header class="header">
+                        <hgroup>
+                            <h1 class="brand-main"><a href="/">noisufnoc.com</a></h1>
+                            <p class="tagline"></p>
+                                <p class="social">
+                                    <a href="http://twitter.com/noisufnoc">
+                                        <i class="fa fa-twitter fa-3x"></i>
+                                    </a>
+                                    <a href="http://facebook.com/noisufnoc">
+                                        <i class="fa fa-facebook fa-3x"></i>
+                                    </a>
+                                    <a href="http://instagram.com/therealnoisufnoc">
+                                        <i class="fa fa-instagram fa-3x"></i>
+                                    </a>
+                                <p>
+                        </hgroup>
+                    </header>
+                </div>
+            </div>
+        </div>
+    <div class="pure-u">
+        <div class="content">
+            <section class="post">
+                <header class="post-header">
+                    <h1>Testing Testing</h1>
+                        <p class="post-meta">
+                            // under                                 <a class="post-category" href="http://noisufnoc.github.com/tag/test.html">Test</a>
+                        </p>
+                </header>
+            </section>
+            <p>Testing testing, 123</p>
+            <a href="#" class="go-top">Go Top</a>
+<footer class="footer">
+    <p>&copy; Mike &ndash;
+        Built with <a href="https://github.com/PurePelicanTheme/pure-single">Pure Theme</a>
+        for <a href="http://blog.getpelican.com/">Pelican</a>
+    </p>
+</footer>        </div>
+    </div>
+    </div>
+    <script>
+        var $top = $('.go-top');
 
-    <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2013-05-07T00:00:00">
-                Published: Tue 07 May 2013
-        </abbr>
+        // Show or hide the sticky footer button
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 200) {
+                $top.fadeIn(200);
+            } else {
+                $top.fadeOut(200);
+            }
+        });
 
-        <address class="vcard author">
-                By                         <a class="url fn" href="http://noisufnoc.github.com/author/mike-walker.html">Mike Walker</a>
-        </address>
-<p>In <a href="http://noisufnoc.github.com/category/banana.html">Banana</a>. </p>
-<p>tags: <a href="http://noisufnoc.github.com/tag/test.html">Test</a> </p>
-</footer><!-- /.post-info -->      <p>Testing testing, 123</p>
-    </div><!-- /.entry-content -->
+        // Animate the scroll to top
+        $top.click(function(event) {
+            event.preventDefault();
+            $('html, body').animate({scrollTop: 0}, 300);
+        })
 
-  </article>
-</section>
-        <section id="extras" class="body">
-                <div class="blogroll">
-                        <h2>blogroll</h2>
-                        <ul>
-                            <li><a href="http://facebook.com/noisufnoc">facebook</a></li>
-                            <li><a href="http://instagram.com/therealnoisufnoc">instagram</a></li>
-                            <li><a href="http://untappd.com/noisufnoc">untappd</a></li>
-                            <li><a href="http://twitter.com/noisufnoc">twitter</a></li>
-                            <li><a href="http://plus.google.com/108169237874141810797">google+</a></li>
-                            <li><a href="http://bitbucket.org/noisufnoc">bitbucket</a></li>
-                            <li><a href="http://github.com/noisufnoc">github</a></li>
-                        </ul>
-                </div><!-- /.blogroll -->
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
-                            <li><a href="http://noisufnoc.github.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
-
-                            <li><a href="http://twitter.com/noisufnoc">twitter</a></li>
-                            <li><a href="http://facebook.com/noisufnoc">facebook</a></li>
-                            <li><a href="http://instagram.com/therealnoisufnoc">instagram</a></li>
-                        </ul>
-                </div><!-- /.social -->
-        </section><!-- /#extras -->
-
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
-
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
-        </footer><!-- /#contentinfo -->
+        // Makes sure that the href="#" attached to the <a> elements
+        // don't scroll you back up the page.
+        $('body').on('click', 'a[href="#"]', function(event) {
+            event.preventDefault();
+        });
+    </script>
 
 </body>
 </html>

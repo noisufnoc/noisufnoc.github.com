@@ -1,66 +1,72 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-        <meta charset="utf-8" />
-        <title>noisufnoc.com - Authors</title>
-        <link rel="stylesheet" href="http://noisufnoc.github.com/theme/css/main.css" />
-        <link href="http://noisufnoc.github.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="noisufnoc.com Atom Feed" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="noisufnoc.com, ">
 
-        <!--[if IE]>
-            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+        <link rel="alternate"  href="http://noisufnoc.github.com/feeds/all.atom.xml" type="application/atom+xml" title="noisufnoc.com Full Atom Feed"/>
+
+        <title>noisufnoc.com - Authors</title>
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.3.0/pure-min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://noisufnoc.github.com/theme/css/pure.css">
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 </head>
 
-<body id="index" class="home">
-<a href="https://github.com/noisufnoc/noisufnoc.github.com">
-<img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" />
-</a>
-        <header id="banner" class="body">
-                <h1><a href="http://noisufnoc.github.com/">noisufnoc.com </a></h1>
-                <nav><ul>
-                    <li><a href="http://noisufnoc.github.com/category/banana.html">Banana</a></li>
-                </ul></nav>
-        </header><!-- /#banner -->
+<body>
+    <div class="pure-g-r" id="layout">
+        <div class="sidebar pure-u">
+            <div class="cover-img" style="background-image: url('')">
+                <div class="cover-body">
+                    <header class="header">
+                        <hgroup>
+                            <h1 class="brand-main"><a href="/">noisufnoc.com</a></h1>
+                            <p class="tagline"></p>
+                                <p class="social">
+                                    <a href="http://twitter.com/noisufnoc">
+                                        <i class="fa fa-twitter fa-3x"></i>
+                                    </a>
+                                    <a href="http://facebook.com/noisufnoc">
+                                        <i class="fa fa-facebook fa-3x"></i>
+                                    </a>
+                                    <a href="http://instagram.com/therealnoisufnoc">
+                                        <i class="fa fa-instagram fa-3x"></i>
+                                    </a>
+                                <p>
+                        </hgroup>
+                    </header>
+                </div>
+            </div>
+        </div>
+    <h1>Authors on noisufnoc.com</h1>        <li><a href="http://noisufnoc.github.com/author/mike-walker.html">Mike Walker</a> (1)</li>
+    </div>
+    <script>
+        var $top = $('.go-top');
 
-<section id="content" class="body">
-    <h1>Authors on noisufnoc.com</h1>
-    <ul>
-        <li><a href="http://noisufnoc.github.com/author/mike-walker.html">Mike Walker</a> (1)</li>
-    </ul>
-</section>
+        // Show or hide the sticky footer button
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 200) {
+                $top.fadeIn(200);
+            } else {
+                $top.fadeOut(200);
+            }
+        });
 
-        <section id="extras" class="body">
-                <div class="blogroll">
-                        <h2>blogroll</h2>
-                        <ul>
-                            <li><a href="http://facebook.com/noisufnoc">facebook</a></li>
-                            <li><a href="http://instagram.com/therealnoisufnoc">instagram</a></li>
-                            <li><a href="http://untappd.com/noisufnoc">untappd</a></li>
-                            <li><a href="http://twitter.com/noisufnoc">twitter</a></li>
-                            <li><a href="http://plus.google.com/108169237874141810797">google+</a></li>
-                            <li><a href="http://bitbucket.org/noisufnoc">bitbucket</a></li>
-                            <li><a href="http://github.com/noisufnoc">github</a></li>
-                        </ul>
-                </div><!-- /.blogroll -->
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
-                            <li><a href="http://noisufnoc.github.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+        // Animate the scroll to top
+        $top.click(function(event) {
+            event.preventDefault();
+            $('html, body').animate({scrollTop: 0}, 300);
+        })
 
-                            <li><a href="http://twitter.com/noisufnoc">twitter</a></li>
-                            <li><a href="http://facebook.com/noisufnoc">facebook</a></li>
-                            <li><a href="http://instagram.com/therealnoisufnoc">instagram</a></li>
-                        </ul>
-                </div><!-- /.social -->
-        </section><!-- /#extras -->
-
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
-
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
-        </footer><!-- /#contentinfo -->
+        // Makes sure that the href="#" attached to the <a> elements
+        // don't scroll you back up the page.
+        $('body').on('click', 'a[href="#"]', function(event) {
+            event.preventDefault();
+        });
+    </script>
 
 </body>
 </html>
