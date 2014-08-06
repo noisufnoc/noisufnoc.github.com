@@ -15,6 +15,8 @@ TWITTER_USERNAME = 'noisufnoc'
 
 TIMEZONE = 'America/Los_Angeles'
 
+COVER_IMG_URL = 'http://i.imgur.com/AqYrKdD.jpg'
+
 
 # Blogroll
 # LINKS = (
