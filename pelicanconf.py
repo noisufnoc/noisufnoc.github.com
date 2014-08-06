@@ -17,21 +17,18 @@ TIMEZONE = 'America/Los_Angeles'
 
 
 # Blogroll
-LINKS = (
-    ('facebook', 'http://facebook.com/noisufnoc'),
-    ('instagram', 'http://instagram.com/therealnoisufnoc'),
-    ('untappd', 'http://untappd.com/noisufnoc'),
-    ('twitter', 'http://twitter.com/noisufnoc'),
-    ('google+', 'http://plus.google.com/108169237874141810797'),
-    ('bitbucket', 'http://bitbucket.org/noisufnoc'),
-    ('github', 'http://github.com/noisufnoc'),
-)
+# LINKS = (
+# )
 
 # Social widget
 SOCIAL = (
+    ('github', 'http://github.com/noisufnoc'),
+    ('bitbucket', 'http://bitbucket.org/noisufnoc'),
     ('twitter', 'http://twitter.com/noisufnoc'),
+    ('google', 'http://plus.google.com/108169237874141810797'),
     ('facebook', 'http://facebook.com/noisufnoc'),
     ('instagram', 'http://instagram.com/therealnoisufnoc'),
+    ('beer', 'http://untappd.com/noisufnoc'),
 )
 
 DEFAULT_PAGINATION = 10
