@@ -4,13 +4,13 @@
 AUTHOR = u"Mike"
 ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
-SITENAME = u"noisufnoc.com"
+SITENAME = 'sitename'
 SITEURL = ''
 DEFAULT_CATEGORY = 'Blog'
 DEFAULT_LANG = 'en'
 DELETE_OUTPUT_DIRECTORY = True
 THEME = 'pure-single'
-GITHUB_URL = 'https://github.com/noisufnoc/noisufnoc.github.com'
+GITHUB_URL = 'https://github.com/noisufnoc/'
 TWITTER_USERNAME = 'noisufnoc'
 
 TIMEZONE = 'America/Los_Angeles'
@@ -22,10 +22,9 @@ GOOGLE_ANALYTICS = 'UA-18841921-1'
 
 TAGLINE = 'foo bar baz'
 
-
-# Blogroll
-# LINKS = (
-# )
+MENUITEMS = (
+    ('test', 'http://google.com'),
+)
 
 # Social widget
 SOCIAL = (
