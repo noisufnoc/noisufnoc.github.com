@@ -18,6 +18,8 @@ TIMEZONE = 'America/Los_Angeles'
 COVER_IMG_URL = 'http://i.imgur.com/AqYrKdD.jpg'
 PROFILE_IMG_URL = 'http://i.imgur.com/vKNDRoJ.jpg'
 
+GOOGLE_ANALYTICS = 'UA-18841921-1'
+
 
 # Blogroll
 # LINKS = (
