@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 
-AUTHOR = u"Mike"
+AUTHOR = 'Mike'
 ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 SITENAME = 'sitename'
@@ -20,10 +20,12 @@ PROFILE_IMG_URL = 'http://i.imgur.com/vKNDRoJ.jpg'
 
 GOOGLE_ANALYTICS = 'UA-18841921-1'
 
-TAGLINE = 'foo bar baz'
+TAGLINE = 'this is a tagline'
 
 MENUITEMS = (
-    ('test', 'http://google.com'),
+    ('foo', 'http://google.com'),
+    ('bar', 'http://reddit.com'),
+    ('baz', 'http://bing.com'),
 )
 
 # Social widget
