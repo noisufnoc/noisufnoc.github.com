@@ -35,7 +35,7 @@ SOCIAL = (
     ('twitter', 'http://twitter.com/noisufnoc'),
     ('google', 'http://plus.google.com/108169237874141810797'),
     ('facebook', 'http://facebook.com/noisufnoc'),
-    ('instagram', 'http://instagram.com/therealnoisufnoc'),
+    ('instagram', 'http://instagram.com/noisufnoc'),
     ('beer', 'http://untappd.com/noisufnoc'),
 )
 
