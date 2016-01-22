@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="noisufnoc.com, #!/usr/bin/python">
+
+        <link rel="alternate"  href="http://noisufnoc.github.com/feeds/all.atom.xml" type="application/atom+xml" title="noisufnoc.com Full Atom Feed"/>
+
+        <title>Pelican Power! // noisufnoc.com // #!/usr/bin/python</title>
+
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.3.0/pure-min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://noisufnoc.github.com/theme/css/pure.css">
+    <link rel="stylesheet" href="http://noisufnoc.github.com/theme/css/pygments.css">
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/fitvids/1.0.1/jquery.fitvids.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".content").fitVids();
+        });
+    </script>
+</head>
+
+<body>
+    <div class="pure-g-r" id="layout">
+        <div class="sidebar pure-u">
+            <div class="cover-img" style="background-image: url('http://i.imgur.com/AqYrKdD.jpg')">
+                <div class="cover-body">
+                    <header class="header">
+                        <hgroup>
+                            <img class="avatar" src="http://i.imgur.com/vKNDRoJ.jpg">
+                            <h1 class="brand-main"><a href="http://noisufnoc.github.com">noisufnoc.com</a></h1>
+                            <p class="tagline">#!/usr/bin/python</p>
+                                <p class="links"><a href="http://google.com">foo</a></p>
+                                <p class="links"><a href="http://reddit.com">bar</a></p>
+                                <p class="links"><a href="http://bing.com">baz</a></p>
+                                <p class="social">
+                                    <a href="http://github.com/noisufnoc">
+                                        <i class="fa fa-github fa-3x"></i>
+                                    </a>
+                                    <a href="http://twitter.com/noisufnoc">
+                                        <i class="fa fa-twitter fa-3x"></i>
+                                    </a>
+                                    <a href="http://plus.google.com/108169237874141810797">
+                                        <i class="fa fa-google fa-3x"></i>
+                                    </a>
+                                    <a href="http://facebook.com/noisufnoc">
+                                        <i class="fa fa-facebook fa-3x"></i>
+                                    </a>
+                                    <a href="http://instagram.com/noisufnoc">
+                                        <i class="fa fa-instagram fa-3x"></i>
+                                    </a>
+                                    <a href="http://untappd.com/noisufnoc">
+                                        <i class="fa fa-beer fa-3x"></i>
+                                    </a>
+                                </p>
+                        </hgroup>
+                    </header>
+                </div>
+            </div>
+        </div>
+    <div class="pure-u">
+        <div class="content">
+            <section class="post">
+                <header class="post-header">
+                    <h1>Pelican Power!</h1>
+                        <p class="post-meta">
+                            // under                                 <a class="post-category" href="http://noisufnoc.github.com/tag/blog.html">blog</a>
+                                <a class="post-category" href="http://noisufnoc.github.com/tag/pelican.html">pelican</a>
+                                <a class="post-category" href="http://noisufnoc.github.com/tag/python.html">python</a>
+                        </p>
+                </header>
+            </section>
+            <p><img alt="pelican power suit" src="http://i.imgur.com/MyYkRgnl.png" title="Pelican Power Suit" /></p>
+<p>I can't guarantee that I'm going to blog all that often, but I've decided to dust this domain off and put out a little bit of content.  I am using <a href="http://blog.getpelican.com/">Pelican</a>, which is a <a href="https://www.python.org/">Python</a> based static blog generator, and since everything is flat files I am able to host it on my <a href="https://github.com/noisufnoc/">GitHub</a></p>
+<p>This post, in part is to remind me how to actually publish to GitHub.  I haddn't touched this site in over two years, and couldn't rember the commands I was using to build things so that GitHub pages would serve them up.  After some serious grepping through my bookmarks, I was able to find the original blogger that gave me the info for getting started with Pelican.  <a href="http://blog.aclark.net//2012/09/21/yes-this-blog-is-now-powered-by-pelican/">Alex Clark's Blog</a> has some great information for customizing Pelican to run on GitHub pages.  Most importantly, this set of commands to make the blog and commit it.</p>
+<div class="highlight"><pre># make publish; git commit -a -m &quot;Super descriptive commit message&quot;; git push
+</pre></div>
+
+
+<p>That's all for now, please forgive any misspellings.  Since Pelican uses MarkDown, I'm just writing this entry in vim.  Perhaps I can get the vimspell plugin working...and blog about it later.</p>
+            <a href="#" class="go-top">Go Top</a>
+<footer class="footer">
+    <p>&copy; Mike &ndash;
+        Built with <a href="https://github.com/PurePelicanTheme/pure-single">Pure Theme</a>
+        for <a href="http://blog.getpelican.com/">Pelican</a>
+    </p>
+</footer>        </div>
+    </div>
+    </div>
+    <script>
+        var $top = $('.go-top');
+
+        // Show or hide the sticky footer button
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 200) {
+                $top.fadeIn(200);
+            } else {
+                $top.fadeOut(200);
+            }
+        });
+
+        // Animate the scroll to top
+        $top.click(function(event) {
+            event.preventDefault();
+            $('html, body').animate({scrollTop: 0}, 300);
+        })
+
+        // Makes sure that the href="#" attached to the <a> elements
+        // don't scroll you back up the page.
+        $('body').on('click', 'a[href="#"]', function(event) {
+            event.preventDefault();
+        });
+    </script>
+    <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+        try {
+            var pageTracker = _gat._getTracker("UA-18841921-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+    </script>
+
+</body>
+</html>
