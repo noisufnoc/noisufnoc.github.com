@@ -23,11 +23,11 @@ GOOGLE_ANALYTICS = 'UA-18841921-1'
 
 TAGLINE = '#!/usr/bin/python'
 
-MENUITEMS = (
-    ('foo', 'http://google.com'),
-    ('bar', 'http://reddit.com'),
-    ('baz', 'http://bing.com'),
-)
+#MENUITEMS = (
+#    ('foo', 'http://google.com'),
+#    ('bar', 'http://reddit.com'),
+#    ('baz', 'http://bing.com'),
+#)
 
 # Social widget
 SOCIAL = (
