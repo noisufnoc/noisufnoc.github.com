@@ -17,7 +17,8 @@ TWITTER_USERNAME = 'noisufnoc'
 TIMEZONE = 'America/New_York'
 
 COVER_IMG_URL = 'http://i.imgur.com/AqYrKdD.jpg'
-PROFILE_IMG_URL = 'http://i.imgur.com/vKNDRoJ.jpg'
+#PROFILE_IMG_URL = 'http://i.imgur.com/vKNDRoJ.jpg'
+PROFILE_IMG_URL = 'http://i.imgur.com/HPAapF0.jpg'
 
 GOOGLE_ANALYTICS = 'UA-18841921-1'
 
