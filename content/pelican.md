@@ -14,4 +14,6 @@ This post, in part is to remind me how to actually publish to GitHub.  I haddn't
 # make publish; git commit -a -m "Super descriptive commit message"; git push
 ```
 
+Don't forget to add any new files that aren't initially tracked by git.
+
 That's all for now, please forgive any misspellings.  Since Pelican uses MarkDown, I'm just writing this entry in vim.  Perhaps I can get the vimspell plugin working...and blog about it later.

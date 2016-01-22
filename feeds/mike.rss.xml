@@ -6,4 +6,5 @@
 &lt;/pre&gt;&lt;/div&gt;
 
 
+&lt;p&gt;Don't forget to add any new files that aren't initially tracked by git.&lt;/p&gt;
 &lt;p&gt;That's all for now, please forgive any misspellings.  Since Pelican uses MarkDown, I'm just writing this entry in vim.  Perhaps I can get the vimspell plugin working...and blog about it later.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mike</dc:creator><pubDate>Fri, 22 Jan 2016 00:00:00 -0800</pubDate><guid>tag:noisufnoc.github.com,2016-01-22:2016/01/22/pelican-power/</guid><category>blog</category><category>pelican</category><category>python</category></item></channel></rss>

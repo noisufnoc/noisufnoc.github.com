@@ -6,4 +6,5 @@
 &lt;/pre&gt;&lt;/div&gt;
 
 
+&lt;p&gt;Don't forget to add any new files that aren't initially tracked by git.&lt;/p&gt;
 &lt;p&gt;That's all for now, please forgive any misspellings.  Since Pelican uses MarkDown, I'm just writing this entry in vim.  Perhaps I can get the vimspell plugin working...and blog about it later.&lt;/p&gt;</summary><category term="blog"></category><category term="pelican"></category><category term="python"></category></entry></feed>
