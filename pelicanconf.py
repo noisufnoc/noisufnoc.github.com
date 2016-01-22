@@ -4,8 +4,8 @@
 AUTHOR = 'Mike'
 ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
-SITENAME = 'sitename'
-SITEURL = ''
+SITENAME = 'noisufnoc.com'
+SITEURL = 'noisufnoc.com'
 DEFAULT_CATEGORY = 'Blog'
 DEFAULT_LANG = 'en'
 DELETE_OUTPUT_DIRECTORY = True
