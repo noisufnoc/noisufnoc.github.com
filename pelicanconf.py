@@ -20,7 +20,7 @@ PROFILE_IMG_URL = 'http://i.imgur.com/vKNDRoJ.jpg'
 
 GOOGLE_ANALYTICS = 'UA-18841921-1'
 
-TAGLINE = 'i have no idea what i am doing'
+TAGLINE = '#!/usr/bin/python'
 
 MENUITEMS = (
     ('foo', 'http://google.com'),
