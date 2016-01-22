@@ -31,7 +31,6 @@ MENUITEMS = (
 # Social widget
 SOCIAL = (
     ('github', 'http://github.com/noisufnoc'),
-#   ('bitbucket', 'http://bitbucket.org/noisufnoc'),
     ('twitter', 'http://twitter.com/noisufnoc'),
     ('google', 'http://plus.google.com/108169237874141810797'),
     ('facebook', 'http://facebook.com/noisufnoc'),
