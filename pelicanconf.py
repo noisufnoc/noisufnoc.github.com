@@ -3,6 +3,7 @@
 
 AUTHOR = 'Mike'
 ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
+#PAGE_SAVE_AS = '{page_name}.html'
 ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 SITENAME = 'noisufnoc.com'
 SITEURL = 'noisufnoc.com'
@@ -13,7 +14,7 @@ THEME = 'pure-single'
 GITHUB_URL = 'https://github.com/noisufnoc/'
 TWITTER_USERNAME = 'noisufnoc'
 
-TIMEZONE = 'America/Los_Angeles'
+TIMEZONE = 'America/New_York'
 
 COVER_IMG_URL = 'http://i.imgur.com/AqYrKdD.jpg'
 PROFILE_IMG_URL = 'http://i.imgur.com/vKNDRoJ.jpg'
