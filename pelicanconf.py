@@ -22,7 +22,7 @@ PROFILE_IMG_URL = 'http://i.imgur.com/HPAapF0.jpg'
 
 GOOGLE_ANALYTICS = 'UA-18841921-1'
 
-TAGLINE = '#!/usr/bin/python'
+TAGLINE = '#!/usr/local/bin/python2'
 
 #MENUITEMS = (
 #    ('foo', 'http://google.com'),
